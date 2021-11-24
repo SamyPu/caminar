@@ -255,6 +255,12 @@ footer p span, footer span span {
   .third .box div {
     padding: 5% 10%;
   }
+  .third .order-box1 {
+    order: 2;
+  }
+  .third .order-box2 {
+    order: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
