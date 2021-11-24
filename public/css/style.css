@@ -1,0 +1,260 @@
+/* -----------------------------ALL----------------------------- */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  display: flex;
+}
+
+section {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ALL */
+/* -----------------------------HEADER----------------------------- */
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  font-size: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+header span {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0px;
+}
+
+/* HEADER END */
+/* -----------------------------SECTION----------------------------- */
+.first div:nth-of-type(1) img {
+  width: 100%;
+}
+.first div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 40px 0px;
+  text-align: center;
+}
+.first div:nth-of-type(2) h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.first div:nth-of-type(2) span {
+  position: relative;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(170, 170, 170, 0.8);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.first div:nth-of-type(2) span:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  left: 50%;
+  background-color: rgba(124, 124, 124, 0.5);
+  opacity: 0.3;
+  top: -20px;
+}
+.first div:nth-of-type(2) span:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  right: 50%;
+  background-color: rgba(124, 124, 124, 0.5);
+  opacity: 0.3;
+  top: -20px;
+}
+.first div:nth-of-type(3) {
+  background-color: #F5F5F5;
+  padding: 5%;
+  flex-wrap: wrap;
+}
+.first div:nth-of-type(3) p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(75, 75, 75, 0.8);
+  line-height: 25px;
+  margin: 15px 0px;
+}
+
+.second {
+  background-color: #1E1F23;
+  padding: 5%;
+}
+.second > div {
+  background-color: #121315;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  text-align: center;
+}
+.second > div h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: white;
+}
+.second > div span {
+  position: relative;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(170, 170, 170, 0.8);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 40px 0px;
+}
+.second > div span:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  left: 50%;
+  background-color: rgba(124, 124, 124, 0.5);
+  opacity: 0.3;
+  top: -20px;
+}
+.second > div span:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  right: 50%;
+  background-color: rgba(124, 124, 124, 0.5);
+  opacity: 0.3;
+  top: -20px;
+}
+.second > div .row div {
+  flex-grow: 1;
+}
+.second > div .row div img {
+  width: 100%;
+  height: 100%;
+}
+
+.third .bg-black {
+  background-color: #1E1F23;
+}
+.third .bg-black div {
+  padding: 20% 10%;
+  text-align: right;
+}
+.third .bg-black div h3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: white;
+}
+.third .bg-black div p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(119, 119, 119, 0.8);
+  line-height: 25px;
+  margin: 15px 0px;
+}
+.third .bg-white {
+  background-color: white;
+}
+.third .bg-white div {
+  padding: 20% 10%;
+}
+.third .bg-white div h3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: black;
+}
+.third .bg-white div p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(75, 75, 75, 0.8);
+  line-height: 25px;
+  margin: 15px 0px;
+}
+.third .box {
+  width: 50%;
+  flex-grow: 1;
+}
+.third .box img {
+  width: 100%;
+  height: 100%;
+}
+
+/* SECTION END */
+/* -----------------------------FOOTER----------------------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+footer div {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+footer div a i {
+  margin: 8px;
+  color: rgba(192, 192, 192, 0.8);
+  font-size: 30px;
+}
+footer p, footer span {
+  font-size: 14px;
+  margin: 10px 0px;
+  color: rgba(192, 192, 192, 0.8);
+  font-family: "Roboto", sans-serif;
+}
+footer p span, footer span span {
+  text-decoration: underline;
+}
+
+/* FOOTER END */
+/* -----------------------------MEDIA----------------------------- */
+@media (max-width: 576px) {
+  section {
+    margin: 2%;
+  }
+
+  .second > div .row {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  section {
+    margin: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .third .row {
+    flex-wrap: wrap;
+  }
+  .third .box {
+    width: 100%;
+    height: 50%;
+  }
+  .third .box div {
+    padding: 5% 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
